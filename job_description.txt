@@ -1,0 +1,62 @@
+ About M7 Health
+M7 Health is a nursing workforce management platform built to meet the evolving needs 
+of the modern nurse—flexibility, predictability, and autonomy. Our software intelligently 
+optimizes labor distribution across hospital units and time, factoring in staff 
+preferences, historical volume, and staffing data. The result: dynamic scheduling that 
+drives both operational efficiency and staff satisfaction.
+M7 is currently live in over 30 hospitals nationwide, with many more onboarding. 
+Already, M7 has demonstrated measurable impact—improving nurse retention, 
+reducing administrative burden, and lowering excess labor costs.
+We recently closed a $10M Series A led by top-tier investors including Threshold 
+Ventures, First Round Capital, 25M Health, Lakehouse Ventures, Banter Capital, 
+and January Ventures—and we’re just getting started.
+ About the Role
+We’re looking for a Software Engineer to help us build tools that redefine how hospitals 
+manage nursing staff. You’ll be a core contributor to the platform—designing features 
+end-to-end, refining our proprietary scheduling system, optimizing real-time algorithms, 
+and collaborating across teams to solve complex, real-world problems.
+You’ll work closely with product managers and healthcare operations experts to turn 
+user needs into intuitive and impactful software—used every day by nurses and hospital 
+administrators.
+�� What You’ll Do
+• Build Product: Design and implement features across the full stack
+• Leverage AI: Apply AI/ML techniques to enhance scheduling intelligence, streamline 
+workflows, and surface actionable insights for healthcare staff.
+• Architect Solutions: Contribute to system design decisions to ensure our platform 
+is scalable, maintainable, and performant.
+• Collaborate Cross-Functionally: Partner with Product, Ops, and Customer teams 
+to understand user needs and translate them into practical solutions.
+• Maintain Quality: Write clean, well-tested, and maintainable code. Support team 
+productivity through code reviews and best practices.
+• Think Beyond the Code: At our stage, everyone contributes beyond their job 
+description—whether it’s solving customer challenges or refining team processes.
+ About You
+• Startup Energy: You thrive in fast-paced environments, manage ambiguity well, and 
+focus on what moves the needle.
+• Full-Stack Proficiency: You’re comfortable across the stack and ideally 
+experienced with:
+• Frontend: React, TypeScript, Vite
+• Backend: Node.js, NestJS, TypeORM
+• Database: PostgreSQL
+• Infrastructure: AWS or similar cloud infrastructure
+• Builder’s Mindset: You love turning ideas into software and iterating fast based on 
+feedback.
+• Product-Driven: You think like a user and make decisions that prioritize usability 
+and real-world impact.
+• Strong Communicator: You explain complex ideas clearly and collaborate 
+effectively across technical and non-technical teams.
+ Our Hybrid Approach
+We believe in the power of in-person collaboration to accelerate learning, reinforce 
+team culture, and drive efficiency. Our team meets quarterly in our Manhattan, NYC 
+office for three days of deep work, connection, and alignment.
+ Compensation & Benefits
+• Competitive salary and meaningful equity
+• Health insurance (medical, dental, vision)
+• Flexible PTO
+• Quarterly in-person team sessions (with team meals and events)
+ Equal Opportunity
+At M7 Health, we aim to foster a workplace free from discrimination. We believe that 
+diversity of experience, perspectives, and backgrounds leads to a better environment 
+for our people and a better product for our clients. M7 Health is an equal-opportunity
+employer and encourages all applicants from every background and life experience to 
+apply.
