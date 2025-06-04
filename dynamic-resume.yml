@@ -1,0 +1,84 @@
+name: "Nick Mak"
+occupation: "Full Stack Software Engineering"
+location: "New York, NY"
+phone: "(415) 609-9900"
+email: "nicknickmak@gmail.com"
+linkedin:
+  name: "nick-l-mak"
+  value: "https://www.linkedin.com/in/nick-l-mak"
+
+html:
+  head:
+    title: "Resume - Nick Mak"
+    styles: "styles.css" # Link to your CSS file
+
+work_experience:
+  - title: "Software Engineer"
+    company: "Microsoft"
+    dates: "April 2022 - Present"
+    location: "Remote - New York, NY"
+    responsibilities:
+      - "Led the UI development for an internal Ads flighting experimentation product, enhancing UI/UX functionality."
+      - "Migrated UI codebase from AngularJS to Angular, improving maintainability and minimizing bugs."
+      - "Integrated optimization techniques, reducing latency by 33%."
+      - "Developed full-stack features using C# backend and Azure tech stack."
+      - "Trained in Microsoft Copilot AI for brainstorming innovative solutions."
+      - "Built UI for 1-click checkout feature on MSN Shopping page using React."
+      - "Integrated end-to-end testing with Selenium and Jest."
+
+  - title: "Software Engineer Intern"
+    company: "Microsoft"
+    dates: "June 2021 - September 2021"
+    location: "Remote"
+    responsibilities:
+      - "Built a new dashboard platform for centralizing onboarding data for BingAds."
+      - "Created high-visibility Ads Globalization and OKR metrics."
+      - "Utilized Apache Spark for data mining, Azure Data Factory for scheduling, and Power BI for visualization."
+
+  - title: "Augmented Reality Development Intern"
+    company: "UCSD + NIWC"
+    dates: "March 2021 - June 2021"
+    location: "Remote"
+    responsibilities:
+      - "Worked with professor and U.S. Navy researchers developing Mixed Reality applications with Magic-Leap headset."
+      - "Incorporated face recognition in Unity with OpenCV for fatigue analysis to improve ship work safety."
+
+  - title: "Software Engineering Intern"
+    company: "Toasty"
+    dates: "January 2020 - April 2020"
+    location: "San Francisco, CA"
+    responsibilities:
+      - "Redesigned UI/UX for Event and Discover pages using Flutter SDK."
+      - "Transitioned prototype framework from Figma to Adobe XD."
+
+education:
+  degree: "B.S. in Computer Science"
+  school: "University of California, San Diego"
+  graduation_date: "January 2022"
+
+technical_projects:
+  - title: "Pokemon-Inspired Budget Tracker Widgets for iOS"
+    description: "Developed Javascript-based iOS widget UI themed after Pokemon, integrating Google Sheets API for budget tracking and spending habit monitoring. Upgrading to React Native for scalability."
+
+skills:
+  languages:
+    - "TypeScript"
+    - "JavaScript"
+    - "C#"
+    - "Python"
+    - "HTML5"
+    - "CSS"
+  frameworks:
+    - "Angular"
+    - "React"
+    - "Node.js"
+    - ".NET 8.0"
+    - "Azure Ecosystem"
+    - "Flutter"
+    - "Android Studio"
+    - "Git"
+    - "Docker"
+
+soft_skills:
+  - "Public Speaking and Communication"
+  - "Leadership (Founded robotics organization at Ruth Asawa School of the Arts)"

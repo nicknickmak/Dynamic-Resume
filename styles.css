@@ -1,0 +1,94 @@
+/* General Resume Styling */
+body {
+    font-family: Lato;
+    margin: 40px;
+    padding: 0;
+    background-color: white;
+    color: rgb(57, 57, 57);
+}
+
+/* Resume Container */
+.resume-container {
+    max-width: 750px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: Lato;
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight:bolder;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: rgb(0, 0, 175);
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+/* Job Descriptions */
+.job {
+    margin-bottom: 10px;
+}
+
+.job p {
+    font-size: 14px;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.job ul {
+    font-size: 14px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.job ul li {
+    margin-bottom: 3px;
+}
+
+/* Skills */
+.skills p, .technical-projects p {
+    font-size: 14px;
+}
+
+.soft-skills ul {
+    padding-left: 20px;
+}
+
+.soft-skills li {
+    font-size: 14px;
+}
+
+/* Print Optimization */
+@media print {
+    body {
+        background-color: white;
+    }
+}
