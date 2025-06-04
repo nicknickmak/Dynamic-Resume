@@ -1,16 +1,10 @@
-import openai
 import yaml
-from jinja2 import Environment, FileSystemLoader, Template
-
-# Open AI API Key
-openai.api_key = "MY OPENAI API KEY"
+from jinja2 import Environment, FileSystemLoader
 
 # Load YAML data
-def load_experience(path):
-    with open(path, "r") as file:
-        return yaml.safe_load(file)
+with open("dynamic-resume.yml", "r") as file:
+    data = yaml.safe_load(file)
 
-data = load_experience("dynamic-resume.yml")
 
 # Set up Jinja2 environment
 env = Environment(loader=FileSystemLoader('.'))
