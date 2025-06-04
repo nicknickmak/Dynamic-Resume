@@ -1,4 +1,5 @@
 import yaml
+from jinja2 import Environment, FileSystemLoader, Template
 """
 Loads a YAML file of experiences
 @param path - path name to YAML file of experiences
@@ -15,16 +16,22 @@ def load_jd_text(path):
     with open(path, "r") as file:
         return file.read()
 
-# Set up Jinja2 environment
-env = Environment(loader=FileSystemLoader('.'))
-template = env.get_template('resume_template.html')
+def main():
+    # Load files
+    all_experiences = load_experience_yaml("full_resume.yaml")
 
-# Render the template with YAML data
-data = load_experience_yaml("full_resume.yaml")
-output = template.render(data)
+    # Set up Jinja2 environment
+    env = Environment(loader=FileSystemLoader('.'))
+    template = env.get_template('resume_template.html')
 
-# Save the generated HTML
-with open("resume.html", "w") as f:
-    f.write(output)
 
-print("Resume generated successfully!")
+    output = template.render(all_experiences)
+
+    # Save the generated HTML
+    with open("resume.html", "w") as f:
+        f.write(output)
+
+    print("Resume generated successfully!")
+
+if __name__ == "__main__":
+    main()
