@@ -1,60 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <meta charset="UTF-8">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
     <title>{{ name }} - Resume</title>
-    <link rel="stylesheet" href="{{ html.head.styles }}">
-</head>
-<body>
+    <link rel="stylesheet" href="{{ html.head.styles }}" />
+  </head>
+  <body>
     <div class="resume-container">
-        <header>
-            <h1>{{ name }}</h1>
-            <p>{{ occupation }} | {{ location }}</p>
-            <p>{{ phone }} | <a href="mailto:{{ email }}">{{ email }}</a> | LinkedIn: <a href="{{ linkedin.value }}">{{ linkedin.name }}</a></p>
-        </header>
+      <header>
+        <h1>{{ name }}</h1>
+        <p>{{ occupation }} | {{ location }}</p>
+        <p>
+          {{ phone }} | <a href="mailto:{{ email }}">{{ email }}</a> | LinkedIn:
+          <a href="{{ linkedin.value }}">{{ linkedin.name }}</a>
+        </p>
+      </header>
 
-        <section class="experience">
-            <h2>Work Experience</h2>
-            {% for job in work_experience %}
-            <div class="job">
-                <h3>{{ job.title }}</h3>
-                <p><strong>{{ job.company }}</strong> | {{ job.location }} | {{ job.dates }}</p>
-                <ul>
-                    {% for responsibility in job.responsibilities %}
-                    <li>{{ responsibility }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
+      <section class="experience">
+        <h2>Work Experience</h2>
+        {% for job in work_experience %}
+        <div class="job">
+          <h3>{{ job.title }}</h3>
+          <div class="job-basic-info">
+            <p><strong>{{ job.company }}</strong> | {{ job.location }}</p>
+            <p>{{ job.dates }}</p>
+          </div>
+          <ul>
+            {% for responsibility in job.responsibilities %}
+            <li>{{ responsibility }}</li>
             {% endfor %}
-        </section>
+          </ul>
+        </div>
+        {% endfor %}
+      </section>
 
-        <section class="education">
-            <h2>Education</h2>
-            <p><strong>{{ education.degree }}</strong> | {{ education.school }} | {{ education.graduation_date }}</p>
-        </section>
+      <section class="education">
+        <h2>Education</h2>
+        <p>
+          <strong>{{ education.degree }}</strong> | {{ education.school }} | {{
+          education.graduation_date }}
+        </p>
+      </section>
 
-        <section class="technical-projects">
-            <h2>Technical Projects</h2>
-            {% for project in technical_projects %}
-            <p><strong>{{ project.title }}</strong>: {{ project.description }}</p>
-            {% endfor %}
-        </section>
+      <section class="technical-projects">
+        <h2>Technical Projects</h2>
+        {% for project in technical_projects %}
+        <p><strong>{{ project.title }}</strong>: {{ project.description }}</p>
+        {% endfor %}
+      </section>
 
-        <section class="skills">
-            <h2>Technical Skills</h2>
-            <p><strong>Programming Languages:</strong> {{ ', '.join(skills.languages) }}</p>
-            <p><strong>Frameworks & Technologies:</strong> {{ ', '.join(skills.frameworks) }}</p>
-        </section>
+      <section class="skills">
+        <h2>Technical Skills</h2>
+        <p>
+          <strong>Programming Languages:</strong> {{ ', '.join(skills.languages)
+          }}
+        </p>
+        <p>
+          <strong>Frameworks & Technologies:</strong> {{ ',
+          '.join(skills.frameworks) }}
+        </p>
+      </section>
 
-        <section class="soft-skills">
-            <h2>Soft Skills</h2>
-            <ul>
-                {% for skill in soft_skills %}
-                <li>{{ skill }}</li>
-                {% endfor %}
-            </ul>
-        </section>
+      <section class="soft-skills">
+        <h2>Soft Skills</h2>
+        <ul>
+          {% for skill in soft_skills %}
+          <li>{{ skill }}</li>
+          {% endfor %}
+        </ul>
+      </section>
     </div>
-</body>
+  </body>
 </html>
