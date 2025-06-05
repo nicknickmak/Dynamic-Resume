@@ -18,13 +18,12 @@ work_experience:
     dates: "April 2022 - Present"
     location: "Remote - New York, NY"
     responsibilities:
-      - "Led the UI development for an internal Ads flighting experimentation product, enhancing UI/UX functionality."
-      - "Migrated UI codebase from AngularJS to Angular, improving maintainability and minimizing bugs."
-      - "Integrated optimization techniques, reducing latency by 33%."
-      - "Developed full-stack features using C# backend and Azure tech stack."
-      - "Trained in Microsoft Copilot AI for brainstorming innovative solutions."
-      - "Built UI for 1-click checkout feature on MSN Shopping page using React."
-      - "Integrated end-to-end testing with Selenium and Jest."
+      - "Developed full-stack features using Angular, .NET, SQL and Azure cloud infrastructure."
+      - "Led the UI development for an internal Ads flighting experimentation product, enhancing UI/UX functionality and optimizing the UI experience,by implementing virtual scrolling and browser caching to reduce latency by 33%."
+      - "Migrated UI codebase from AngularJS to Angular, to improve maintainability and minimize bugs."
+      - "Utilized Azure Copilot to develop an LLM and build an integrated GenAI service the product."
+      - "Built UI for 1-click checkout feature on the MSN Shopping page using React."
+      - "Integrated end-to-end and unit testing with Selenium and Jest for >90% code coverage."
 
   - title: "Software Engineer Intern"
     company: "Microsoft"
@@ -57,8 +56,13 @@ education:
   graduation_date: "January 2022"
 
 technical_projects:
-  - title: "Pokemon-Inspired Budget Tracker Widgets for iOS"
+  - title: "AI Resumé Taylor"
+    description: "Built a GenAI full-stack service that utilizes OpenAI to taylor a user's complete career experience to a given job description and produces a filtered resumé."
+    tech_stack: "OpenAI, Python, HTML+CSS, YAML"
+
+  - title: "Mobile Budget Tracker Widgets"
     description: "Developed Javascript-based iOS widget UI themed after Pokemon, integrating Google Sheets API for budget tracking and spending habit monitoring. Upgrading to React Native for scalability."
+    tech_stack: "Javascript, Google App Scripts, Google Sheets API, Photoshop"
 
 skills:
   languages:

@@ -53,29 +53,39 @@ h3 {
 }
 
 /* Job Descriptions */
-.job {
+.job, .technical-projects {
     margin-bottom: 10px;
 }
 
-.job p {
+.job-basic-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job p, .technical-projects p {
     font-size: 14px;
     font-style: italic;
     margin: 5px 0;
 }
 
-.job ul {
+.job ul, .technical-projects ul {
     font-size: 14px;
     padding-left: 20px;
     margin: 0;
 }
 
-.job ul li {
+.job ul li, .technical-projects ul li {
     margin-bottom: 3px;
 }
 
 /* Skills */
 .skills p, .technical-projects p {
     font-size: 14px;
+}
+
+.technical-projects .project-tech-stack {
+    padding-left: 10px;
+    font-size: 11px;
 }
 
 .soft-skills ul {

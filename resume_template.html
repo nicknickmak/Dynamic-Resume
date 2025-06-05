@@ -49,7 +49,13 @@
       <section class="technical-projects">
         <h2>Technical Projects</h2>
         {% for project in technical_projects %}
-        <p><strong>{{ project.title }}</strong>: {{ project.description }}</p>
+        <p>
+          <strong>{{ project.title }}</strong>
+          <span class="project-tech-stack">{{project.tech_stack}}</span>
+        </p>
+        <ul>
+          {{ project.description }}
+        </ul>
         {% endfor %}
       </section>
 
