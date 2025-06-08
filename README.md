@@ -40,3 +40,16 @@ Generate a customized resume by filtering relevant experience from a YAML file b
 - Allow options for choosing different items to add
 - Generate a cover letter/template based off job description and resume
 - Warning if a job requires skills that I don't have
+
+
+## Setup
+Start by running:
+    
+    \.install-requirements.bat
+
+Make sure you get the .env file from the owner.
+- This includes important secrets like the OpenAI API Key and prompts
+
+Finally run:
+
+    python .\resume-builder.py
